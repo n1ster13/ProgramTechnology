@@ -4,7 +4,7 @@
 
     public string Sku => _sku;
 
-    public string Name { get; set;)
+    public string Name { get; set; }
     public decimal Price { get; set; }
 
     public Season Season { get; set; } = Season.AllSeason;
