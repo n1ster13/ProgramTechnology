@@ -1,4 +1,11 @@
-﻿public interface IWashable
+﻿/// <summary>
+/// Интерфейс для предметов, которые можно стирать.
+/// </summary>
+public interface IWashable
 {
+    /// <summary>
+    /// Метод для стирки предмета.
+    /// Реализация определяется в классе, который использует интерфейс.
+    /// </summary>
     void Wash();
 }
